@@ -2,7 +2,7 @@
 public class Die {
 
 	private int numSides;
-	private double dieRoll;
+	public double dieRoll;
 	
 	public Die() {
 		setSides(6);

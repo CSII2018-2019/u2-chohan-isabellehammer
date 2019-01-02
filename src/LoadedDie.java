@@ -1,24 +1,18 @@
 
 public class LoadedDie extends Die {
 
-	private double loadedRoll;
 	
-	public LoadedDie (int sides, double roll, double lroll) {
+	public LoadedDie (int sides, double roll) {
 		super (sides, roll);
-		setLoadedRoll(lroll);
 	}
 	
-	public void setLoadedRoll(double lroll) {
-		if (lroll%2 == 1) {
-			loadedRoll = lroll;
-		} else {
-			loadedRoll = lroll + 1;
+	public void setRoll(double roll) {
+		dieRoll = Math.random()* getSides ();
+		if (dieRoll % 2 == 1) {
+			dieRoll = dieRoll + 1;
 		}
 	}
 	
-	public double getLoadedRoll() {
-		return loadedRoll;
-	}
 	
 	
 }
