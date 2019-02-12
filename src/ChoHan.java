@@ -24,10 +24,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 0) {
 			System.out.println("The sum is Cho.");
-			if input.equals("Cho"){
+			if (input.equals("Cho")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input2.equals("Cho"){
+			if (input2.equals("Cho")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -37,10 +37,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 1) {
 			System.out.println("The sum is Han.");
-			if input.equals("Han"){
+			if (input.equals("Han")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input2.equals("Han"){
+			if (input2.equals("Han")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -60,17 +60,17 @@ public class ChoHan {
 		round2B.setSides(6);
 		round2B.setRoll(Math.random());
 		
-		double sum = (round2A.getRoll()  + round2B.getRoll());
+		double sum2 = (round2A.getRoll()  + round2B.getRoll());
 		
 		String input3 = JOptionPane.showInputDialog(null, "Time for round 2. Player 1, guess Cho (even) or Han (odd).");
 		String input4 = JOptionPane.showInputDialog(null, "Player 2, guess Cho (even) or Han (odd).");
 		
 		if (sum % 2 == 0) {
 			System.out.println("The sum is Cho.");
-			if input3.equals("Cho"){
+			if (input3.equals("Cho")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input4.equals("Cho"){
+			if (input4.equals("Cho")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -80,10 +80,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 1) {
 			System.out.println("The sum is Han.");
-			if input3.equals("Han"){
+			if (input3.equals("Han")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input4.equals("Han"){
+			if (input4.equals("Han")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -102,17 +102,17 @@ public class ChoHan {
 		round3B.setSides(6);
 		round3B.setRoll(Math.random());
 		
-		double sum = (round3A.getRoll()  + round3B.getRoll());
+		double sum3 = (round3A.getRoll()  + round3B.getRoll());
 		
 		String input5 = JOptionPane.showInputDialog(null, "Time for round 3. Player 1, guess Cho (even) or Han (odd).");
 		String input6 = JOptionPane.showInputDialog(null, "Player 2, guess Cho (even) or Han (odd).");
 		
 		if (sum % 2 == 0) {
 			System.out.println("The sum is Cho.");
-			if input5.equals("Cho"){
+			if (input5.equals("Cho")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input6.equals("Cho"){
+			if (input6.equals("Cho")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -122,10 +122,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 1) {
 			System.out.println("The sum is Han.");
-			if input5.equals("Han"){
+			if (input5.equals("Han")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input6.equals("Han"){
+			if (input6.equals("Han")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -145,17 +145,17 @@ public class ChoHan {
 		round4B.setSides(6);
 		round4B.setRoll(Math.random());
 		
-		double sum = (round4A.getRoll()  + round4B.getRoll());
+		double sum4 = (round4A.getRoll()  + round4B.getRoll());
 		
-		String input7 = JOptionPane.showInputDialog(null, "Time for round 2. Player 1, guess Cho (even) or Han (odd).");
+		String input7 = JOptionPane.showInputDialog(null, "Time for round 4. Player 1, guess Cho (even) or Han (odd).");
 		String input8 = JOptionPane.showInputDialog(null, "Player 2, guess Cho (even) or Han (odd).");
 		
 		if (sum % 2 == 0) {
 			System.out.println("The sum is Cho.");
-			if input7.equals("Cho"){
+			if (input7.equals("Cho")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input8.equals("Cho"){
+			if (input8.equals("Cho")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -165,10 +165,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 1) {
 			System.out.println("The sum is Han.");
-			if input7.equals("Han"){
+			if (input7.equals("Han")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input8.equals("Han"){
+			if (input8.equals("Han")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -187,17 +187,17 @@ public class ChoHan {
 		round5B.setSides(6);
 		round5B.setRoll(Math.random());
 		
-		double sum = (round5A.getRoll()  + round5B.getRoll());
+		double sum5 = (round5A.getRoll()  + round5B.getRoll());
 		
-		String input9 = JOptionPane.showInputDialog(null, "Time for round 2. Player 1, guess Cho (even) or Han (odd).");
+		String input9 = JOptionPane.showInputDialog(null, "Time for round 5. Player 1, guess Cho (even) or Han (odd).");
 		String input0 = JOptionPane.showInputDialog(null, "Player 2, guess Cho (even) or Han (odd).");
 		
 		if (sum % 2 == 0) {
 			System.out.println("The sum is Cho.");
-			if input9.equals("Cho"){
+			if (input9.equals("Cho")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input0.equals("Cho"){
+			if (input0.equals("Cho")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
@@ -207,10 +207,10 @@ public class ChoHan {
 		
 		if (sum % 2 == 1) {
 			System.out.println("The sum is Han.");
-			if input9.equals("Han"){
+			if (input9.equals("Han")){
 				System.out.println("Player 1 guessed correctly!");
 			}
-			if input0.equals("Han"){
+			if (input0.equals("Han")){
 				System.out.println("Player 2 guessed correctly!");
 			}
 			else {
